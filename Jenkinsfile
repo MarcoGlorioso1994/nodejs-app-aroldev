@@ -63,7 +63,7 @@ podTemplate(yaml: '''
                 git config --global user.email "marcoglorioso1594@gmail.com"
                 git config --global user.name "Marco Glorioso"
                 git add values.yaml
-                git commit -m "Update image tag to ${env.BUILD_NUMBER}"
+                git commit -m "Update image tag to ${env.BUILD_NUMBER} [skip ci]"
                 """
             }
             
